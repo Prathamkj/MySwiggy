@@ -21,6 +21,7 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  base: "/MySwiggy",
   optimizeDeps: {
     include: ['url'],
   },
